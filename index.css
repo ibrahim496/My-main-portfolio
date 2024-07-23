@@ -43,7 +43,7 @@ font-size: 300%;
    }
 
    li a:hover {
-       background-color: blue;
+       background-color: grey;
    }
 
 
@@ -59,13 +59,12 @@ font-size: 300%;
    }
    img {
     position: absolute;
-       border-radius: 50%;
-    width:19% ;
-    height:32%;
-    left: 39%;
-    top: 11%;
-
-   }
+    border-radius: 50%;
+    width: 15%; /* Ensure the width and height are equal */
+    height: 27%; /* Ensure the width and height are equal */
+    left: 43%; /* Adjust positioning to keep it centered */
+    top: 13%; /* Adjust positioning to keep it centered */
+}
 
                  
                         .btn-3 {
@@ -156,12 +155,12 @@ font-size: 300%;
 h1 {
 
     transform: translate3d(0, -10px, 22px);
-    color: #ff0266;
+    color: white;
 }
 h2 {
 
     transform: translate3d(0, -10px, 22px);
-    color: blue;
+    color: grey;
 }
 
   .hidenav {
@@ -174,7 +173,7 @@ footer {
       left: 0;
       bottom: 0;
       width: 100%;
-      background-color: blue;
+      background-color: grey;
       color: white;
       text-align: center
   }

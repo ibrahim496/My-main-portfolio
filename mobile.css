@@ -2,7 +2,7 @@
 /* nav starts */
 nav {
   display: none;
-background-color: rgb(180, 174, 206); 
+background-color: grey; 
 position: fixed;
 top: 0;
 left: 50%;
@@ -27,15 +27,15 @@ ul{
 }
 
 li a:hover {
-  background-color: blue;
+  background-color: grey;
 }
 /* nav ends */
    img {
     position: absolute;
        border-radius: 50%;
-    width:40% ;
+    width:50% ;
     height:35%;
-    left: 39%;
+    left: 28%;
     top: 20%;
 
    }
@@ -44,8 +44,8 @@ li a:hover {
 height: 0.8em;
     width: 1.25em;
     display: block;
-    border-top: 0.2em solid orange;
-    border-bottom: 0.2em solid orange;
+    border-top: 0.2em solid grey;
+    border-bottom: 0.2em solid grey;
    border-radius: 0.1em;
 }
  .shownav:before { 
@@ -53,7 +53,7 @@ height: 0.8em;
     position: absolute;
     width: 1.25em;
     margin-top: 0.3em;
-    border-top: 0.2em solid green;
+    border-top: 0.2em solid white;
 }
  #clicked .shownav {display: block;}
 #clicked .nav {display: none}
